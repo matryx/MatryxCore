@@ -11,7 +11,6 @@ Geth.exe ^
     --ipcdisable ^
     --datadir %cd% ^
     --verbosity 1 ^
-    --etherbase "0x11f2915576dc51dffb246959258e8fe5a1913161" ^
     --networkid 628799 ^
     --rpcapi eth,web3,net,personal ^
     --rpc --rpcaddr "0.0.0.0" ^

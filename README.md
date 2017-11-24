@@ -29,7 +29,7 @@ Make sure you have Git and [Unity](https://unity3d.com/) in order to run our Cal
 	`enter_the_matryx.bat`
 
 6. Import your wallet to the local node	
-	*`web3.personal.importRawKey('<YourPrivateKey>', '<YourPassphrase>')`
+	`web3.personal.importRawKey('<YourPrivateKey>', '<YourPassphrase>')`
 7. Set the Etherbase on the private chain geth node
 	`web3.miner.setEtherbase('<YourPublicKey')`
 8. Set the default account as your own
