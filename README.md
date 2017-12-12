@@ -25,21 +25,27 @@ Make sure you have Git and [Unity](https://unity3d.com/) in order to run our Cal
 
 4. Navigate to the directory where you git cloned the repo
 
-5. Run the Matryx Private Chain geth node locally
-	`enter_the_matryx.bat`
+5. Run the initialization script.
+	`init_and_launch_console.bat`
 
-6. Import your wallet to the local node	
+6. Import your account with a positive MTX balance through your local node's console
 	`web3.personal.importRawKey('<YourPrivateKey>', '<YourPassphrase>')`
-7. Set the Etherbase on the private chain geth node
+	
+7. Set the Etherbase through your local node's console
 	`web3.miner.setEtherbase('<YourPublicKey')`
-8. Set the default account as your own
+	
+8. Set the default account to the account you just imported
 	`web3.eth.defaultAccount = web3.personal.listAccounts[0]`
-9. Unlock your account so it can make a call to the Matryx Platform
+
+9. Run the Matryx Private Chain geth node locally
+	`enter_the_matryx.bat`
+	
+10. Unlock your account so it can make a call to the Matryx Platform
 	`web3.personal.unlockAccount('<YourPublicKey>','<YourPassphrase>')`
 
 10. Launch Calcflow
 11. Look at your watch and open the top button labeled "Publish to Matryx"
-12. Here you can see the open tournaments such as "Design a silly mug"
+12. Here you can see the open tournaments such as "Design a ridiculous mug"
 13. Make a design using Calcflow
 14. Upload your submission to the Matryx Platform and wait for the round to end.
 15. Good luck!
