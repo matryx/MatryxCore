@@ -37,18 +37,20 @@ Make sure you have Git and [Unity](https://unity3d.com/) in order to run our Cal
 8. Set the default account to the account you just imported
 	`web3.eth.defaultAccount = web3.personal.listAccounts[0]`
 
-9. Run the Matryx Private Chain geth node locally
+9. `exit` the console
+
+10. Run the Matryx Private Chain geth node locally
 	`enter_the_matryx.bat`
 	
-10. Unlock your account so it can make a call to the Matryx Platform
+11. Unlock your account so it can make a call to the Matryx Platform
 	`web3.personal.unlockAccount('<YourPublicKey>','<YourPassphrase>')`
 
-10. Launch Calcflow
-11. Look at your watch and open the top button labeled "Publish to Matryx"
-12. Here you can see the open tournaments such as "Design a ridiculous mug"
-13. Make a design using Calcflow
-14. Upload your submission to the Matryx Platform and wait for the round to end.
-15. Good luck!
+12. Launch Calcflow
+13. Look at your watch and open the top button labeled "Publish to Matryx"
+14. Here you can see the open tournaments such as "Design a ridiculous mug"
+15. Make a design using Calcflow
+16. Upload your submission to the Matryx Platform and wait for the round to end.
+17. Good luck!
 
 
 
