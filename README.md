@@ -43,7 +43,7 @@ Make sure you have Git and [Unity](https://unity3d.com/) in order to run our Cal
 	`enter_the_matryx.bat`
 	
 11. Unlock your account so it can make a call to the Matryx Platform
-	`web3.personal.unlockAccount('<YourPublicKey>','<YourPassphrase>')`
+	`web3.personal.unlockAccount('<YourPublicKey>','<YourPassphrase>', 1000000)`
 
 12. Launch Calcflow
 13. Look at your watch and open the top button labeled "Publish to Matryx"
