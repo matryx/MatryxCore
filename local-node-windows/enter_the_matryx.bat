@@ -5,7 +5,7 @@ Geth.exe ^
     --ipcdisable ^
     --datadir %cd% ^
     --verbosity 1 ^
-    --networkid 628799 ^
+    --networkid 777 ^
     --rpcapi eth,web3,net,personal ^
     --rpc --rpcaddr "0.0.0.0" ^
     --rpcport "8545" ^
