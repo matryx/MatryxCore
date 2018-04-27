@@ -26,7 +26,7 @@ Make sure you have Git and [Unity](https://unity3d.com/) in order to run our Cal
 4. Navigate to the directory where you git cloned the repo
 
 5. Run the initialization script.
-	`init_and_launch_console.bat`
+	`SetEtherbase.bat`
 
 6. Import your account with a positive MTX balance through your local node's console
 	`web3.personal.importRawKey('<YourPrivateKey>', '<YourPassphrase>')`
