@@ -1,5 +1,5 @@
-# Matryx-Alpha
-Matryx Alpha - The Collaborative Research &amp; Development Engine Optimized for Virtual Reality Interfaces
+# MatryxCore
+The Collaborative Research &amp; Development Engine Optimized for Virtual Reality Interfaces.
 
 Follow these instructions to get connected to our Matryx Alpha Network
 
