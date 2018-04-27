@@ -1,2 +1,2 @@
-Geth.exe --identity "MatryxTestNode" init --datadir "%cd%" "MatryxGenesis.json" --ipcdisable --mine --autodag --networkid 628799 --nat "any" --gasprice "3000000"
-Geth.exe --identity "MatryxTestNode" --datadir "%cd%" console
+.\geth.exe --identity "MatryxTestNode" init --datadir "%cd%" "MatryxGenesis.json" --ipcdisable --autodag --networkid 777 --nat "any" --gasprice "3000000"
+.\geth.exe --identity "MatryxTestNode" --datadir "%cd%" console
